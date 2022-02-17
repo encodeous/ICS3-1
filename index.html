@@ -6,375 +6,376 @@
     Date: 2/15/2022
  -->
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Sample Webpage Assignment</title>
-</head>
-
-<body>
-    <!-- I wrapped the content in a div to make sure it scales well across different screen sizes -->
-    <div class="main-cont">
-        <div class="card">
-            <h1>
-                Simple Sample Webpage :: Adam Chen
-                <hr>
-            </h1>
-            <h4>
-                Answer to Questions...
-            </h4>
-            </h2>
-            <ol>
-                <li>
-                    <b>What does HTML stand for?</b>
-                    <br>
-                    <div class="grid-c">
-                        <img class="grid-item" alt="HTML 5 icon"
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png">
-                        <p class="grid-item">
-                            HTML stands for the Hyper Text Markup Language. It was initially released in 1993,
-                            and
-                            was
-                            standardized by the W3C. For more information, you can check out this <a
-                                href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a> page!
-                        </p>
-                    </div>
-                </li>
-                <br />
-                <li>
-                    <b>What are Markup Tags?</b>
-                    <br>
-                    <div class="grid-c">
-                        <div class="grid-item">
-                            <code>
-                                &lt;h1&gt; Cool! &lt;/h1&gt;
-                            </code>
-                        </div>
-                        <p class="grid-item">
-                            Markup tags are the foundation of HTML, they tell the browser how to render content on a
-                            webpage. Different tags have different actions. For example, an <code>h1</code> tag will
-                            make the
-                            text contain in it the size of a title.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What tools are required to make a webpage?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            Creating a webpage requires very basic tools. The only tools needed are a text-editor
-                            and a browser to view the website.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What extension must your webpage have?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            Webpages, specifically HTML documents <i>must</i> end in <code>.html/.htm</code> to be
-                            viewed
-                            by the
-                            browser.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b id="Q5">What is an HTML Element?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            HTML elements are elements defined by one or more tags. Some elements include content
-                            which require a starting and closing tag, while others do not.
-                        </p>
-                    </div>
-
-                    <h5>
-                        Examples:
-                    </h5>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            Image elements do not contain any content, so it is a single tag.
-                            <br>
-                            <code>
-                                &lt;img alt="This is an image" src="image-link-here"&gt;
-                            </code>
-                        </p>
-                        <p class="grid-item">
-                            Paragraphs require closing tags
-                            <br>
-                            <code>
-                                &lt;p&gt;
-                                    Here is some text
-                                &lt;/p&gt;
-                            </code>
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What is a nested HTML element?</b>
-                    <br>
-                    <div class="grid-c">
-                        <div class="grid-item">
-                            <div style="background-color: aliceblue; color: black; padding: 5px;">
-                                Here is a wrapper
-                                <h3 style="background-color: paleturquoise; color: black">
-                                    Here is a nested h3 element
-                                </h3>
-                            </div>
-                        </div>
-                        <p class="grid-item">
-                            Items can be nested in html. This allows for much more flexibility when making webpages.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What is an attribute?</b>
-                    <br>
-                    <div class="grid-c">
-                        <code class="grid-item">
-                                &lt;p class="fancy-text"&gt;
-                                    Here is some text
-                                &lt;/p&gt;
-                            </code>
-                        <p class="grid-item">
-                            Attributes provide tags with additional information. Some of the most common attributes
-                            are style and class, which can apply css to a specific element.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>Should tags be uppercase or lowercase?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            In HTML, uppercase tags behave the same way as lowercase ones. They are identical.
-                            However, it is generally accepted that tags should be in lowercase. This improves
-                            readability and ensures compatibility across browsers.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>Give 2 examples of empty HTML elements.</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            1. The break-line tag
-                            <code>
-                                &lt;br&gt;
-                            </code>
-                        </p>
-                        <p class="grid-item">
-                            2. The horizontal rule tag
-                            <code>
-                                &lt;hr&gt;
-                            </code>
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>Why is it important to use Heading Tags?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            Heading tags ensure the readability of the document. They stand out from regular text,
-                            and tells the reader that a piece of text is a title.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What are comments used for?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            In software development, comments are used to ensure that people can understand what
-                            some piece of code is. In HTML, these comments can ensure other designers can interpret
-                            what a piece of markup is doing.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>How can you see the HTML code for a web page that someone else made and posted on the
-                        internet?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            HTML code can be viewed by nearly all text editors by just opening the
-                            <code>.html</code> file with it. To preview / render the document, just open it with a
-                            browser.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What does deprecated mean? Why should the font tag not be used? What is the correct way to
-                        change font?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            As software change over time, there are features that are no longer supported. To ensure
-                            legacy code compatibility, software developers often deprecate features so that old
-                            software do not break. In this case, the font tag is not longer supported, an
-                            alternative is to use CSS properties like
-                            <code>font, font-family, color, and font-size</code> to change the text style.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What are 3 ways you can style your HTML code?</b>
-                    <br>
-                    <ul>
-                        <li>
-                            <b>HTML code can be styled with CSS</b>
-                            <p>
-                                The most basic way to style html element is using the <code>&lt;style&gt;</code>
-                                tag. Developers are able to define styles for tags, or create classes that can be
-                                used with the <code>class</code> attribute.
-                            </p>
-                        </li>
-                        <li>
-                            <b>HTML code can be styled with HTML Tags</b>
-                            <p>
-                                There are a few HTML tags that come with their own styles. A good example is the
-                                title tag.
-                            </p>
-                        </li>
-                        <li>
-                            <b>HTML code can be styled with inline CSS styles</b>
-                            <p>
-                                HTML elements can also be styled inline, meaning the style is declared along with
-                                the tag. This is useful when a style is only used once throughout a document. It can
-                                be achieved by using the <code>style</code> attribute.
-                            </p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <b>Why is it not really a good idea to use the style attribute to change the way your web pages
-                        look? What is the best
-                        method of changing the style of webpages?</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            Styling elements with the <code>style</code> attribute can lead to unmaintainable and
-                            hard-to-read code. Extensive use of this attribute causes a lot of duplicated code. A
-                            simple solution to this is to use the <code>style</code> tag, which allows you to define
-                            classes which can be used by multiple tags without duplicating code.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <b>What is the target attribute used for in the hyperlink tag? Give an example.</b>
-                    <br>
-                    <div class="grid-c">
-                        <p class="grid-item">
-                            The <code>target</code> attribute can be used on anchor tags. This attribute specifies
-                            where a link will open. Using the <code>_blank</code> parameter will open the link in a
-                            new tab, while using the <code>_top</code> parameter will open the link in the current
-                            tab.
-                            <br>
-                            <br>
-                            <b>Examples</b>
-                            <br>
-                            <a href="#Q5" target="_blank">Open Question 5 in a new tab</a>
-                            <br>
-                            <a href="" target="_top">Refresh this page</a>
-                        </p>
-                    </div>
-                </li>
-            </ol>
-        </div>
-    </div>
-</body>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
-
-    :root {
-        --foreg: #3a3a3a;
-        --backg: #222222;
-        --textc: #EFF9F0;
-        --secdc: #4B4E6D;
-        --tertc: #ACF7C1;
-        --quatc: #94BFBE;
-    }
-
-    html,
-    body {
-        color: var(--textc);
-        background-color: var(--backg);
-        display: flex;
-        align-items: stretch;
-        width: 100%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .grid-c {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-gap: 10px;
-        margin: 10px;
-    }
-
-    .grid-item {
-        margin: auto;
-    }
-
-    /* For smaller screen devices */
-    @media only screen and (min-width: 600px) {
-        .main-cont {
-            display: flex;
-            align-items: stretch;
-            padding: 50px;
-            width: 100%
-        }
-    }
-
-    /* Media selector query to make sure wide screen devices can have proper scaling */
-    @media only screen and (min-width: 1200px) {
-        .main-cont {
-            display: flex;
-            align-items: stretch;
-            padding: 50px;
-            padding-left: 20%;
-            padding-right: 20%;
-            width: 100%
-        }
-    }
-
-    img {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 50px;
-        background-color: #EFF9F0;
-    }
-
-    a:active,
-    a:visited,
-    a:link {
-        color: var(--tertc);
-    }
-
-    a:hover {
-        color: var(--quatc);
-    }
-
-    .inline {
-        display: inline-block;
-    }
-
-    .card {
-        width: 100%;
-        padding: 50px;
-        background-color: var(--foreg);
-        box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.46);
-        border-radius: 5px;
-    }
-</style>
-
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Simple Sample Webpage Assignment</title>
+ </head>
+ 
+ <body>
+     <!-- I wrapped the content in a div to make sure it scales well across different screen sizes -->
+     <div class="main-cont">
+         <div class="card">
+             <h1>
+                 Simple Sample Webpage :: Adam Chen
+             </h1>
+             <hr>
+             <a href="https://github.com/encodeous/ICS3-1">View Source Code</a>
+             <h4>
+                 Answer to Questions...
+             </h4>
+             </h2>
+             <ol>
+                 <li>
+                     <b>What does HTML stand for?</b>
+                     <br>
+                     <div class="grid-c">
+                         <img class="grid-item" alt="HTML 5 icon"
+                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png">
+                         <p class="grid-item">
+                             HTML stands for the Hyper Text Markup Language. It was initially released in 1993,
+                             and
+                             was
+                             standardized by the W3C. For more information, you can check out this <a
+                                 href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a> page!
+                         </p>
+                     </div>
+                 </li>
+                 <br />
+                 <li>
+                     <b>What are Markup Tags?</b>
+                     <br>
+                     <div class="grid-c">
+                         <div class="grid-item">
+                             <code>
+                                 &lt;h1&gt; Cool! &lt;/h1&gt;
+                             </code>
+                         </div>
+                         <p class="grid-item">
+                             Markup tags are the foundation of HTML, they tell the browser how to render content on a
+                             webpage. Different tags have different actions. For example, an <code>h1</code> tag will
+                             make the
+                             text contain in it the size of a title.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What tools are required to make a webpage?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             Creating a webpage requires very basic tools. The only tools needed are a text-editor
+                             and a browser to view the website.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What extension must your webpage have?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             Webpages, specifically HTML documents <i>must</i> end in <code>.html/.htm</code> to be
+                             viewed
+                             by the
+                             browser.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b id="Q5">What is an HTML Element?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             HTML elements are elements defined by one or more tags. Some elements include content
+                             which require a starting and closing tag, while others do not.
+                         </p>
+                     </div>
+ 
+                     <h5>
+                         Examples:
+                     </h5>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             Image elements do not contain any content, so it is a single tag.
+                             <br>
+                             <code>
+                                 &lt;img alt="This is an image" src="image-link-here"&gt;
+                             </code>
+                         </p>
+                         <p class="grid-item">
+                             Paragraphs require closing tags
+                             <br>
+                             <code>
+                                 &lt;p&gt;
+                                     Here is some text
+                                 &lt;/p&gt;
+                             </code>
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What is a nested HTML element?</b>
+                     <br>
+                     <div class="grid-c">
+                         <div class="grid-item">
+                             <div style="background-color: aliceblue; color: black; padding: 5px;">
+                                 Here is a wrapper
+                                 <h3 style="background-color: paleturquoise; color: black">
+                                     Here is a nested h3 element
+                                 </h3>
+                             </div>
+                         </div>
+                         <p class="grid-item">
+                             Items can be nested in html. This allows for much more flexibility when making webpages.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What is an attribute?</b>
+                     <br>
+                     <div class="grid-c">
+                         <code class="grid-item">
+                                 &lt;p class="fancy-text"&gt;
+                                     Here is some text
+                                 &lt;/p&gt;
+                             </code>
+                         <p class="grid-item">
+                             Attributes provide tags with additional information. Some of the most common attributes
+                             are style and class, which can apply css to a specific element.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>Should tags be uppercase or lowercase?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             In HTML, uppercase tags behave the same way as lowercase ones. They are identical.
+                             However, it is generally accepted that tags should be in lowercase. This improves
+                             readability and ensures compatibility across browsers.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>Give 2 examples of empty HTML elements.</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             1. The break-line tag
+                             <code>
+                                 &lt;br&gt;
+                             </code>
+                         </p>
+                         <p class="grid-item">
+                             2. The horizontal rule tag
+                             <code>
+                                 &lt;hr&gt;
+                             </code>
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>Why is it important to use Heading Tags?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             Heading tags ensure the readability of the document. They stand out from regular text,
+                             and tells the reader that a piece of text is a title.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What are comments used for?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             In software development, comments are used to ensure that people can understand what
+                             some piece of code is. In HTML, these comments can ensure other designers can interpret
+                             what a piece of markup is doing.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>How can you see the HTML code for a web page that someone else made and posted on the
+                         internet?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             HTML code can be viewed by nearly all text editors by just opening the
+                             <code>.html</code> file with it. To preview / render the document, just open it with a
+                             browser.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What does deprecated mean? Why should the font tag not be used? What is the correct way to
+                         change font?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             As software change over time, there are features that are no longer supported. To ensure
+                             legacy code compatibility, software developers often deprecate features so that old
+                             software do not break. In this case, the font tag is not longer supported, an
+                             alternative is to use CSS properties like
+                             <code>font, font-family, color, and font-size</code> to change the text style.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What are 3 ways you can style your HTML code?</b>
+                     <br>
+                     <ul>
+                         <li>
+                             <b>HTML code can be styled with CSS</b>
+                             <p>
+                                 The most basic way to style html element is using the <code>&lt;style&gt;</code>
+                                 tag. Developers are able to define styles for tags, or create classes that can be
+                                 used with the <code>class</code> attribute.
+                             </p>
+                         </li>
+                         <li>
+                             <b>HTML code can be styled with HTML Tags</b>
+                             <p>
+                                 There are a few HTML tags that come with their own styles. A good example is the
+                                 title tag.
+                             </p>
+                         </li>
+                         <li>
+                             <b>HTML code can be styled with inline CSS styles</b>
+                             <p>
+                                 HTML elements can also be styled inline, meaning the style is declared along with
+                                 the tag. This is useful when a style is only used once throughout a document. It can
+                                 be achieved by using the <code>style</code> attribute.
+                             </p>
+                         </li>
+                     </ul>
+                 </li>
+                 <li>
+                     <b>Why is it not really a good idea to use the style attribute to change the way your web pages
+                         look? What is the best
+                         method of changing the style of webpages?</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             Styling elements with the <code>style</code> attribute can lead to unmaintainable and
+                             hard-to-read code. Extensive use of this attribute causes a lot of duplicated code. A
+                             simple solution to this is to use the <code>style</code> tag, which allows you to define
+                             classes which can be used by multiple tags without duplicating code.
+                         </p>
+                     </div>
+                 </li>
+                 <li>
+                     <b>What is the target attribute used for in the hyperlink tag? Give an example.</b>
+                     <br>
+                     <div class="grid-c">
+                         <p class="grid-item">
+                             The <code>target</code> attribute can be used on anchor tags. This attribute specifies
+                             where a link will open. Using the <code>_blank</code> parameter will open the link in a
+                             new tab, while using the <code>_top</code> parameter will open the link in the current
+                             tab.
+                             <br>
+                             <br>
+                             <b>Examples</b>
+                             <br>
+                             <a href="#Q5" target="_blank">Open Question 5 in a new tab</a>
+                             <br>
+                             <a href="" target="_top">Refresh this page</a>
+                         </p>
+                     </div>
+                 </li>
+             </ol>
+         </div>
+     </div>
+ </body>
+ 
+ <style>
+     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+ 
+     :root {
+         --foreg: #3a3a3a;
+         --backg: #222222;
+         --textc: #EFF9F0;
+         --secdc: #4B4E6D;
+         --tertc: #ACF7C1;
+         --quatc: #94BFBE;
+     }
+ 
+     html,
+     body {
+         color: var(--textc);
+         background-color: var(--backg);
+         display: flex;
+         align-items: stretch;
+         width: 100%;
+         font-family: 'Montserrat', sans-serif;
+     }
+ 
+     .grid-c {
+         display: grid;
+         grid-template-columns: auto 1fr;
+         grid-gap: 10px;
+         margin: 10px;
+     }
+ 
+     .grid-item {
+         margin: auto;
+     }
+ 
+     /* For smaller screen devices */
+     @media only screen and (min-width: 600px) {
+         .main-cont {
+             display: flex;
+             align-items: stretch;
+             padding: 50px;
+             width: 100%
+         }
+     }
+ 
+     /* Media selector query to make sure wide screen devices can have proper scaling */
+     @media only screen and (min-width: 1200px) {
+         .main-cont {
+             display: flex;
+             align-items: stretch;
+             padding: 50px;
+             padding-left: 20%;
+             padding-right: 20%;
+             width: 100%
+         }
+     }
+ 
+     img {
+         border: 1px solid #ddd;
+         border-radius: 4px;
+         padding: 5px;
+         width: 50px;
+         background-color: #EFF9F0;
+     }
+ 
+     a:active,
+     a:visited,
+     a:link {
+         color: var(--tertc);
+     }
+ 
+     a:hover {
+         color: var(--quatc);
+     }
+ 
+     .inline {
+         display: inline-block;
+     }
+ 
+     .card {
+         width: 100%;
+         padding: 50px;
+         background-color: var(--foreg);
+         box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.46);
+         border-radius: 5px;
+     }
+ </style>
+ 
+ </html>
